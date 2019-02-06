@@ -58,10 +58,9 @@ var templtId = process.argv[4];
 let scanner = new evilscan(options);
 
 var list = [];
-var hosts = {};
 
 scanner.on('result',function (data) {
-    var hostReq = formatHostReq(data, "a638dcd4b8446dc696c77660815cb2aa", 15, 10288);
+    var hostReq = formatHostReq(data, authToken, grpId, templtId);
 	list.push(hostReq);
 });
 
