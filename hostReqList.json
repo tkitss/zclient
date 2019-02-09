@@ -1,0 +1,374 @@
+[
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.5",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 801,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.1",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 802,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.14",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 803,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.14",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 804,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.93",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 805,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.5",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 806,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.1",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 807,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.93",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 808,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.251",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 809,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.9",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 810,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.9",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 811,
+      "auth": "09a850484a75022fb143a9c726870662"
+   },
+   {
+      "jsonrpc": "2.0",
+      "method": "host.create",
+      "params": {
+         "host": "",
+         "interfaces": [
+            {
+               "type": 1,
+               "main": 1,
+               "useip": 1,
+               "ip": "192.168.31.251",
+               "dns": "",
+               "port": 10050
+            }
+         ],
+         "groups": [
+            {
+               "groupid": "5"
+            }
+         ],
+         "templates": [
+            {
+               "templateid": "10186"
+            }
+         ],
+         "inventory_mode": 0,
+         "inventory": {}
+      },
+      "id": 812,
+      "auth": "09a850484a75022fb143a9c726870662"
+   }
+]

@@ -47,3 +47,20 @@ _**Arguments:**_
 ```
 
 This will output a long JSON document to **hostReqList.json** file.
+
+## Additional Script to Add Scanned hosts to Zabbix Server
+
+`main.js` file contains the refactored `login()` and `addToHost()` within the `Session` object which enhances the auth_token retrieval process with `promises API` of Axios.
+
+Change the *`url`* param of  `login()` function to the Zabbix Server's and run the code via node on CLI. 
+
+The script will fetch the `auth_token` and perform login, then create hosts, provided `tkScan.js` is ran beforehand.
+
+Also, `getauthtoken.js` file is added to easily fetch `auth_token` from Zabbix Server. The script is self-explanatory.
+
+Run:
+- `node getauthtoken.js` => Get Auth_Token on the command-line, copy it.
+- Paste the Auth_Token in `tkScan.js` and run `node tkScan.js auth_token groupID templateID > hostReqList.json`.
+- Run `node main.js` to add the scanned hosts to Zabbix Server.
+
+Please feel free to enhance or modifiy the script(s). Thank you.

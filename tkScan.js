@@ -1,9 +1,8 @@
 const evilscan = require('evilscan');
 
-
 // Set IP range and port list here
 let options = {
-    target  :'192.168.1.1-192.168.1.254',
+    target  :'192.168.31.1-192.168.31.254',
     port    :'80, 443',
     status  : 'RO', // Timeout, Refused, Open, Unreachable
     timeout : 3000,
@@ -14,7 +13,7 @@ let options = {
 
 var reqId = 801;
 
-function formatHostReq(hostData, authToken, grpId, tmplId) {
+var formatHostReq = function (hostData, authToken, grpId, tmplId) {
     var hostName = (hostData.reverse != null? hostData.reverse: hostData.ip) ;
     var retval = {
         jsonrpc : "2.0",
