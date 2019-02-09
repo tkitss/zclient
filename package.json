@@ -1,0 +1,23 @@
+{
+  "name": "zclient",
+  "version": "1.0.0",
+  "description": "**Steps to setup:** This should work on any platform (ideally) following instructions are for Windows but should work on any platform as well.",
+  "main": "tkScan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan-krishna/zclient.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan-krishna/zclient/issues"
+  },
+  "homepage": "https://github.com/rohan-krishna/zclient#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "evilscan": "^1.7.5"
+  }
+}
