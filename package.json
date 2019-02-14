@@ -18,6 +18,7 @@
   "homepage": "https://github.com/rohan-krishna/zclient#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "evilscan": "^1.7.5"
+    "evilscan": "^1.7.5",
+    "node-zabbix-sender": "^1.1.0"
   }
 }
